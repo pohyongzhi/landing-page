@@ -55,7 +55,7 @@ ul {
 
 .hero-container {
   display: flex;
-  gap: 3.5rem;
+  gap: 5rem;
   justify-content: center;
   padding: 5rem;
 }
@@ -74,10 +74,10 @@ ul {
 .hero-container-content > button {
   color: #e5e7eb;
   background-color: #3882f6;
-  padding: 0.25rem 1.25rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.35rem;
   border: none;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* image-container */
@@ -157,6 +157,10 @@ ul {
   padding: 3rem 5rem;
   display: flex;
   justify-content: space-between;
+}
+
+.left > p {
+  font-weight: 100;
 }
 
 .right {
